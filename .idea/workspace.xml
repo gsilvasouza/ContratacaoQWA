@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa43caaf-833d-425c-aac3-3df3ba2fa696" name="Default Changelist" comment="Criação da classe PessoaServiceImpl">
-      <change afterPath="$PROJECT_DIR$/Contratacao/src/main/java/br/com/qwa/contratacao/repository/PessoaRepository.java" afterDir="false" />
+    <list default="true" id="fa43caaf-833d-425c-aac3-3df3ba2fa696" name="Default Changelist" comment="Criação da interface PessoaRepository">
+      <change afterPath="$PROJECT_DIR$/Contratacao/src/main/java/br/com/qwa/contratacao/controller/PessoaController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contratacao/src/main/java/br/com/qwa/contratacao/service/PessoaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Contratacao/src/main/java/br/com/qwa/contratacao/service/PessoaService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -70,7 +71,7 @@
       <option name="presentableId" value="Default" />
       <updated>1623976834536</updated>
       <workItem from="1623976836043" duration="53000" />
-      <workItem from="1623977407560" duration="1666000" />
+      <workItem from="1623977407560" duration="1902000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1623977660757</created>
@@ -107,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623978686910</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Criação da interface PessoaRepository">
+      <created>1623979096736</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1623979096736</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,6 +138,7 @@
     <MESSAGE value="Criação da classe BaseServiceImpl" />
     <MESSAGE value="Criação da interface PessoaService" />
     <MESSAGE value="Criação da classe PessoaServiceImpl" />
-    <option name="LAST_COMMIT_MESSAGE" value="Criação da classe PessoaServiceImpl" />
+    <MESSAGE value="Criação da interface PessoaRepository" />
+    <option name="LAST_COMMIT_MESSAGE" value="Criação da interface PessoaRepository" />
   </component>
 </project>

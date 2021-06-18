@@ -9,6 +9,7 @@ public class PessoaDTO {
     private Calendar dataNasc;
 
     public PessoaDTO() {
+
     }
 
     public PessoaDTO(String nome, String sobrenome, String cpf, Calendar dataNasc) {

@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa43caaf-833d-425c-aac3-3df3ba2fa696" name="Default Changelist" comment="Criação da classe PessoaDTO">
-      <change afterPath="$PROJECT_DIR$/Contratacao/src/main/java/br/com/qwa/contratacao/service/BaseServiceImpl.java" afterDir="false" />
+    <list default="true" id="fa43caaf-833d-425c-aac3-3df3ba2fa696" name="Default Changelist" comment="Criação da classe BaseServiceImpl">
+      <change afterPath="$PROJECT_DIR$/Contratacao/src/main/java/br/com/qwa/contratacao/service/PessoaService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,6 +17,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -69,7 +70,7 @@
       <option name="presentableId" value="Default" />
       <updated>1623976834536</updated>
       <workItem from="1623976836043" duration="53000" />
-      <workItem from="1623977407560" duration="663000" />
+      <workItem from="1623977407560" duration="1063000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1623977660757</created>
@@ -85,7 +86,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623977842258</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Criação da classe BaseServiceImpl">
+      <created>1623978095418</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1623978095418</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -105,6 +113,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Criação da classe PessoaDTO" />
-    <option name="LAST_COMMIT_MESSAGE" value="Criação da classe PessoaDTO" />
+    <MESSAGE value="Criação da classe BaseServiceImpl" />
+    <option name="LAST_COMMIT_MESSAGE" value="Criação da classe BaseServiceImpl" />
   </component>
 </project>

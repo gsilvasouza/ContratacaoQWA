@@ -1,11 +1,14 @@
 package br.com.qwa.contratacao.dto;
 
+import javax.persistence.Temporal;
+import javax.persistence.TemporalType;
 import java.util.Calendar;
 
 public class PessoaDTO {
     private String name;
     private String lastName;
     private String cpf;
+    @Temporal(TemporalType.DATE)
     private Calendar dateBorn;
 
     public PessoaDTO() {

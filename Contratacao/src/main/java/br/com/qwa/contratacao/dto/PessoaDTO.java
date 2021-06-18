@@ -3,36 +3,36 @@ package br.com.qwa.contratacao.dto;
 import java.util.Calendar;
 
 public class PessoaDTO {
-    private String nome;
-    private String sobrenome;
+    private String name;
+    private String lastName;
     private String cpf;
-    private Calendar dataNasc;
+    private Calendar dateBorn;
 
     public PessoaDTO() {
 
     }
 
-    public PessoaDTO(String nome, String sobrenome, String cpf, Calendar dataNasc) {
-        this.nome = nome;
-        this.sobrenome = sobrenome;
+    public PessoaDTO(String name, String lastName, String cpf, Calendar dateBorn) {
+        this.name = name;
+        this.lastName = lastName;
         this.cpf = cpf;
-        this.dataNasc = dataNasc;
+        this.dateBorn = dateBorn;
     }
 
-    public String getNome() {
-        return nome;
+    public String getName() {
+        return name;
     }
 
-    public void setNome(String nome) {
-        this.nome = nome;
+    public void setName(String name) {
+        this.name = name;
     }
 
-    public String getSobrenome() {
-        return sobrenome;
+    public String getLastName() {
+        return lastName;
     }
 
-    public void setSobrenome(String sobrenome) {
-        this.sobrenome = sobrenome;
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
     }
 
     public String getCpf() {
@@ -43,11 +43,11 @@ public class PessoaDTO {
         this.cpf = cpf;
     }
 
-    public Calendar getDataNasc() {
-        return dataNasc;
+    public Calendar getDateBorn() {
+        return dateBorn;
     }
 
-    public void setDataNasc(Calendar dataNasc) {
-        this.dataNasc = dataNasc;
+    public void setDateBorn(Calendar dateBorn) {
+        this.dateBorn = dateBorn;
     }
 }

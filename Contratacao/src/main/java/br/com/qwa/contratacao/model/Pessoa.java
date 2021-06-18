@@ -16,63 +16,62 @@ public class Pessoa {
     @Id
     @Column(name = "cd_pessoa")
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "pessoa")
-    private Integer codigo;
+    private Integer code;
 
     @Column(name = "nm_pessoa", nullable = false, length = 50)
-    private String nome;
+    private String name;
 
-    @Column(name = "sbr_pessoa", nullable = false, length = 50)
-    private String sobrenome;
+    @Column(name = "lstNm_pessoa", nullable = false, length = 50)
+    private String lastName;
 
     @Column(name = "cpf_pessoa", nullable = false, length = 14)
     private String cpf;
 
     @Temporal(TemporalType.DATE)
     @Column(name = "dt_nascimento_pessoa", nullable = false)
-    private Calendar dataNascimento;
+    private Calendar dateBorn;
 
     @Column(name = "idade_pessoa", nullable = false, length = 2)
-    private Integer idade;
+    private Integer age;
 
-    @Column(name = "pessoa_maior_idade", nullable = false)
-    private Boolean maiorIdade;
+    @Column(name = "legalAge_pessoa", nullable = false)
+    private Boolean legalAge;
 
-    public Pessoa(Integer codigo, String nome, String sobrenome, String cpf, Calendar dataNascimento, Integer idade, Boolean maiorIdade) {
-        this.codigo = codigo;
-        this.nome = nome;
-        this.sobrenome = sobrenome;
+    public Pessoa(Integer code, String name, String lastName, String cpf, Calendar dateBorn, Integer age, Boolean legalAge) {
+        this.code = code;
+        this.name = name;
+        this.lastName = lastName;
         this.cpf = cpf;
-        this.dataNascimento = dataNascimento;
-        this.idade = idade;
-        this.maiorIdade = maiorIdade;
+        this.dateBorn = dateBorn;
+        this.age = age;
+        this.legalAge = legalAge;
     }
 
     public Pessoa() {
-
     }
 
-    public Integer getCodigo() {
-        return codigo;
+    public Integer getCode() {
+        return code;
     }
 
-    public void setCodigo(Integer codigo) {
-        this.codigo = codigo;
+    public void setCode(Integer code) {
+        this.code = code;
     }
 
-    public String getNome() {
-        return nome;
+    public String getName() {
+        return name;
     }
 
-    public void setNome(String nome) {
-        this.nome = nome;
+    public void setName(String name) {
+        this.name = name;
     }
 
-    public String getSobrenome() {
-        return sobrenome;
+    public String getLastName() {
+        return lastName;
     }
 
-    public void setSobrenome(String sobrenome) {
-        this.sobrenome = sobrenome;
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
     }
 
     public String getCpf() {
@@ -83,27 +82,27 @@ public class Pessoa {
         this.cpf = cpf;
     }
 
-    public Calendar getDataNascimento() {
-        return dataNascimento;
+    public Calendar getDateBorn() {
+        return dateBorn;
     }
 
-    public void setDataNascimento(Calendar dataNascimento) {
-        this.dataNascimento = dataNascimento;
+    public void setDateBorn(Calendar dateBorn) {
+        this.dateBorn = dateBorn;
     }
 
-    public Integer getIdade() {
-        return idade;
+    public Integer getAge() {
+        return age;
     }
 
-    public void setIdade(Integer idade) {
-        this.idade = idade;
+    public void setAge(Integer age) {
+        this.age = age;
     }
 
-    public Boolean getMaiorIdade() {
-        return maiorIdade;
+    public Boolean getLegalAge() {
+        return legalAge;
     }
 
-    public void setMaiorIdade(Boolean maiorIdade) {
-        this.maiorIdade = maiorIdade;
+    public void setLegalAge(Boolean legalAge) {
+        this.legalAge = legalAge;
     }
 }

@@ -13,7 +13,6 @@ public class PessoaMapper {
 
     public Pessoa convertToEntity(PessoaDTO dto) throws ParseException {
         Pessoa entity = new Pessoa();
-        //Calendar dateBornDto = connvertToCalendar(dto.getDateBorn());
         Calendar dateBornDto = dto.getDateBorn();
         Integer ageDto = agePerson(dateBornDto);
         entity.setName(dto.getName());
@@ -22,6 +21,7 @@ public class PessoaMapper {
         entity.setDateBorn(dateBornDto);
         entity.setAge(ageDto);
         entity.setLegalAge(legalAge(ageDto));
+        System.out.println(entity);
         return entity;
     }
 

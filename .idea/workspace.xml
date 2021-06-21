@@ -4,10 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa43caaf-833d-425c-aac3-3df3ba2fa696" name="Default Changelist" comment="Criação da interface PessoaRepository">
-      <change afterPath="$PROJECT_DIR$/Contratacao/src/main/java/br/com/qwa/contratacao/controller/PessoaController.java" afterDir="false" />
+    <list default="true" id="fa43caaf-833d-425c-aac3-3df3ba2fa696" name="Default Changelist" comment="Criação da controller PessoaController">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_7_0_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contratacao/src/main/java/br/com/qwa/contratacao/dto/ListPessoa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contratacao/src/main/java/br/com/qwa/contratacao/handler/ErrorHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contratacao/src/main/java/br/com/qwa/contratacao/utils/ValidationCPF.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9b57d482-4a8f-4c2f-87d0-35ed3207fcee.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9b57d482-4a8f-4c2f-87d0-35ed3207fcee.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9b57d482-4a8f-4c2f-87d0-35ed3207fcee/storage_v2/_src_/schema/RM86404.H5xSeA.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9b57d482-4a8f-4c2f-87d0-35ed3207fcee/storage_v2/_src_/schema/RM86404.H5xSeA.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contratacao/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Contratacao/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contratacao/src/main/java/br/com/qwa/contratacao/controller/PessoaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Contratacao/src/main/java/br/com/qwa/contratacao/controller/PessoaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contratacao/src/main/java/br/com/qwa/contratacao/dto/PessoaDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/Contratacao/src/main/java/br/com/qwa/contratacao/dto/PessoaDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contratacao/src/main/java/br/com/qwa/contratacao/mapper/PessoaMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/Contratacao/src/main/java/br/com/qwa/contratacao/mapper/PessoaMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contratacao/src/main/java/br/com/qwa/contratacao/model/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/Contratacao/src/main/java/br/com/qwa/contratacao/model/Pessoa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contratacao/src/main/java/br/com/qwa/contratacao/service/BaseServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Contratacao/src/main/java/br/com/qwa/contratacao/service/BaseServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Contratacao/src/main/java/br/com/qwa/contratacao/service/PessoaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Contratacao/src/main/java/br/com/qwa/contratacao/service/PessoaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contratacao/src/main/java/br/com/qwa/contratacao/service/PessoaServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Contratacao/src/main/java/br/com/qwa/contratacao/service/PessoaServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,14 +51,18 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Desafio-CTT-Java.API" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.ContratacaoApplication">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -54,6 +74,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ContratacaoApplication#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/ContratacaoApplication.http" runType="Run single request">
+      <method v="2" />
+    </configuration>
     <configuration name="ContratacaoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="Contratacao" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="br.com.qwa.contratacao.ContratacaoApplication" />
@@ -61,6 +84,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.ContratacaoApplication#1" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -71,7 +99,9 @@
       <option name="presentableId" value="Default" />
       <updated>1623976834536</updated>
       <workItem from="1623976836043" duration="53000" />
-      <workItem from="1623977407560" duration="1902000" />
+      <workItem from="1623977407560" duration="7775000" />
+      <workItem from="1624200023142" duration="1389000" />
+      <workItem from="1624222213981" duration="12465000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1623977660757</created>
@@ -115,7 +145,63 @@
       <option name="project" value="LOCAL" />
       <updated>1623979096736</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Adição da anotação @Service">
+      <created>1623979357514</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1623979357514</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Criação da controller PessoaController">
+      <created>1623979386047</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1623979386047</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Alteração da nomeclatura dos atributos">
+      <created>1623979925432</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1623979925432</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Adição da anotação Service">
+      <created>1623985101314</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1623985101314</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Adição da anotação Repository">
+      <created>1623985118294</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1623985118294</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Criação da classe mapper e metodo convertToEntity">
+      <created>1623985158905</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1623985158905</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Adição da anotação Temporal no atributo dateBorn">
+      <created>1623985196856</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1623985196856</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Criação da controller PessoaController">
+      <created>1623985221646</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1623985221646</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,6 +217,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
@@ -139,6 +226,13 @@
     <MESSAGE value="Criação da interface PessoaService" />
     <MESSAGE value="Criação da classe PessoaServiceImpl" />
     <MESSAGE value="Criação da interface PessoaRepository" />
-    <option name="LAST_COMMIT_MESSAGE" value="Criação da interface PessoaRepository" />
+    <MESSAGE value="Adição da anotação @Service" />
+    <MESSAGE value="Alteração da nomeclatura dos atributos" />
+    <MESSAGE value="Adição da anotação Service" />
+    <MESSAGE value="Adição da anotação Repository" />
+    <MESSAGE value="Criação da classe mapper e metodo convertToEntity" />
+    <MESSAGE value="Adição da anotação Temporal no atributo dateBorn" />
+    <MESSAGE value="Criação da controller PessoaController" />
+    <option name="LAST_COMMIT_MESSAGE" value="Criação da controller PessoaController" />
   </component>
 </project>

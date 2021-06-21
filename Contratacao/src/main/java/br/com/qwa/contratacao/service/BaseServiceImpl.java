@@ -6,7 +6,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import javax.persistence.EntityNotFoundException;
 import java.util.List;
 
-public class BaseServiceImpl <T, ID> implements BaseService<T, ID>{
+public class BaseServiceImpl<T, ID> implements BaseService<T, ID> {
     private final JpaRepository<T, ID> repository;
 
     public BaseServiceImpl(JpaRepository<T, ID> repository) {this.repository = repository; }
